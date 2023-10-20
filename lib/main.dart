@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
               children: [
                 const CircleAvatar(
                   backgroundImage: AssetImage('images/pfp.png'),
-                  backgroundColor: Colors.black,
+                  backgroundColor: Color.fromARGB(255, 97, 54, 21),
                   radius: 50.0,
                 ),
                 Container(
