@@ -55,16 +55,23 @@ class MyApp extends StatelessWidget {
                     width: 250,
                     height: 35,
                     decoration: BoxDecoration(
-                        border: Border.all(width: 3, color:Color.fromARGB(255, 97, 54, 21) ),
-                        borderRadius: BorderRadius.all(Radius.circular(20)),
-                        color:   Color.fromARGB(255, 254, 244, 211)
+                        border: Border.all(width: 3, color:const Color.fromARGB(255, 97, 54, 21) ),
+                        borderRadius: const BorderRadius.all(Radius.circular(20)),
+                        color:   const Color.fromARGB(255, 254, 244, 211)
                     ),
                     child: const Row(
                         children: [
                           SizedBox(width: 10),
-                          Icon(Icons.phone),
+                          Icon(
+                              Icons.phone,
+                              color:Color.fromARGB(255, 97, 54, 21)),
                           SizedBox(width: 40),
-                          Text('09704896083')
+                          Text(
+                              '09704896083',
+                              style: TextStyle(
+                                  color:Color.fromARGB(255, 97, 54, 21)
+                              )
+                          )
                         ]
                     )
 
@@ -82,9 +89,16 @@ class MyApp extends StatelessWidget {
                     child: const Row(
                         children: [
                           SizedBox(width: 10),
-                          Icon(Icons.email),
+                          Icon(
+                              Icons.email,
+                              color:Color.fromARGB(255, 97, 54, 21)),
                           SizedBox(width: 20),
-                          Text('RCD0891@dlsd.edu.ph')
+                          Text(
+                              'RCD0891@dlsd.edu.ph',
+                              style: TextStyle(
+                                  color:Color.fromARGB(255, 97, 54, 21)
+                              ),
+                              )
                         ]
                     )
 
@@ -102,9 +116,16 @@ class MyApp extends StatelessWidget {
                     child: const Row(
                         children: [
                           SizedBox(width: 10),
-                          Icon(Icons.person),
+                          Icon(
+                              Icons.person,
+                              color:Color.fromARGB(255, 97, 54, 21)),
                           SizedBox(width: 65),
-                          Text('CPE32')
+                          Text(
+                              'CPE32',
+                              style: TextStyle(
+                                  color:Color.fromARGB(255, 97, 54, 21)
+                              )
+                          )
                         ]
                     )
 
