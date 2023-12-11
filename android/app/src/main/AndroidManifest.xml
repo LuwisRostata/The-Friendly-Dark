@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="rostata_ea3"
+        android:label="The Dark is Friendly"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
